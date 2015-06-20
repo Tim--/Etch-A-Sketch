@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Etch-a-Sketch</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="etch-a-sketch.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+
+    <body>
+        <h1>Etch-a-Sketch</h1>
+        Width <input type="text" name="width" id="tbWidth" value="25" />
+        Height <input type="text" name="height" id="tbHeight" value="25" />
+        Background Color<input type="text" name="bgColor" id="tbBgColor" value="black" />
+        Foreground Color<input type="text" name="fgColor" id="tbFgColor" value="grey" />
+        <input type="checkbox" name="opacity" id="cbOpacity" value="Opacity" />
+        <label for="cbOpacity">Opacity</label>
+        <input type="checkbox" name="trail" id="cbTrail" value="Trail" />
+        <label for="cbTrail">Trail</label>
+        <input type="submit" value="Generate" id="btnInit" />
+        <br><br><br>
+        <div id="gridwrap" />
+    </body>
+</html>

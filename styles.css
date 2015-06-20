@@ -1,0 +1,15 @@
+
+#gridwrap{
+    width:90vh;
+    height:90vh;
+    margin:0 auto;
+}
+
+.cell{
+    display:table-cell;   
+    float:left; 
+}
+
+input[type="text"] {
+    width: 100px;
+}
